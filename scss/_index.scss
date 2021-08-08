@@ -26,7 +26,7 @@
     &__texto-corto {
         position: absolute;
         top: 80%;
-        width: 100%;
+        margin: 0 20px;
         font-size: 5vw;
         font-weight: 900;
         text-align: center;
@@ -45,9 +45,11 @@
     }
     .carousel-caption h5 {
         text-shadow: black 0.1em 0.1em 0.2em;
+        background-color: rgba(0, 0, 0, 0.158);
     }
     .carousel-caption p {
         text-shadow: black 0.1em 0.1em 0.2em, black 0 0 0.2em;
+        background-color: rgba(0, 0, 0, 0.158);
     }
 }
 .general-index {
