@@ -43,6 +43,12 @@
     &__scrollDown {
         display: none;
     }
+    .carousel-caption h5 {
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+    .carousel-caption p {
+        text-shadow: black 0.1em 0.1em 0.2em, black 0 0 0.2em;
+    }
 }
 .general-index {
     grid-area: generalIndex;

@@ -87,7 +87,7 @@ body {
 /*TITULOS HEADER*/
 header h1, header h2 {
   position: absolute;
-  top: 100px;
+  top: 150px;
   width: 100%;
   font-family: 'Gilda Display', serif;
   font-size: 80px;
@@ -98,7 +98,7 @@ header h1, header h2 {
   letter-spacing: 50px; }
 
 header h2 {
-  top: 200px;
+  top: 250px;
   font-size: 30px;
   font-weight: 300;
   text-align: center;
@@ -226,6 +226,10 @@ header {
   width: 100%; }
   .separador-index__scrollDown {
     display: none; }
+  .separador-index .carousel-caption h5 {
+    text-shadow: black 0.1em 0.1em 0.2em; }
+  .separador-index .carousel-caption p {
+    text-shadow: black 0.1em 0.1em 0.2em, black 0 0 0.2em; }
 
 .general-index {
   grid-area: generalIndex;
@@ -294,13 +298,13 @@ header {
   grid-area: mainAmenities; }
   .mainAmenities h4 {
     font-size: 25px;
-    margin: 20px 0 20px 0;
+    margin: 10px 0 10px 0;
     text-align: center; }
   .mainAmenities p {
     font-size: 18px;
     font-weight: 100;
     text-align: center;
-    margin: 0 5%; }
+    margin: 0 5% 30px 0; }
   .mainAmenities img {
     width: 100%; }
   .mainAmenities .principalAmenities {
@@ -365,6 +369,8 @@ header {
   grid-area: mainContacto; }
   .principalContacto .formularioContacto {
     margin: 10% 5%; }
+    .principalContacto .formularioContacto label {
+      margin: 15px 0 5px 0; }
     .principalContacto .formularioContacto .botonesContacto {
       display: flex;
       flex-direction: row;

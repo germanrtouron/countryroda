@@ -7,6 +7,9 @@
     grid-area: mainContacto;
     .formularioContacto {
         margin: 10% 5%;
+        label {
+            margin: 15px 0 5px 0;
+        }
         .botonesContacto {
             display: flex;
             flex-direction: row;
