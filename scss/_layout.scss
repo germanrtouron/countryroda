@@ -1,0 +1,36 @@
+/*LAYOUTS*/
+.contenedorIndex {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "mainIndex"
+                         "footer";
+}
+.contenedorAmenities {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "mainAmenities"
+                         "footer";
+}
+.contenedorContacto {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "mainContacto"
+                         "footer";
+}
+.contenedorGaleria {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "mainGaleria"
+                         "footer";
+}
+.contenedorUbicacion {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "header"
+                         "mainUbicacion"
+                         "footer";
+}

@@ -1,0 +1,25 @@
+/*CONTACTO*/
+.headerContacto {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0.473),
+    rgb(255, 255, 255)), url(../img/banner/headercontacto.jpg);
+}
+.principalContacto {
+    grid-area: mainContacto;
+    .formularioContacto {
+        margin: 10% 5%;
+        .botonesContacto {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .btn {
+                margin: 50px 30px;
+            }
+        }
+        #exampleFormControlTextarea1 {
+            resize: none;
+        }
+        .campoObligatorio {
+            color: red;
+        }
+    }
+}

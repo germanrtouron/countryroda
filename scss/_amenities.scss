@@ -1,0 +1,42 @@
+/*AMENITIES*/
+.headerAmenities {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.205),
+    rgb(255, 255, 255)), url(../img/index/amenities.jpg);
+}
+.mainAmenities {
+    grid-area: mainAmenities;
+    h4 {
+        font-size: 25px;
+        margin: 20px 0 20px 0;
+        text-align: center;
+    }
+    p {
+        @include parrafos (18px, 100, center);
+        margin: 0 5%;
+    }
+    img {
+        width: 100%;
+    }
+    .principalAmenities {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: "bloqueAmenitiesUno"
+                             "bloqueAmenitiesDos"
+                             "bloqueAmenitiesTres"
+                             "bloqueAmenitiesCuatro";
+        grid-row-gap: 20px;
+        .bloqueAmenitiesUno {
+            grid-area: bloqueAmenitiesUno;
+        }
+        .bloqueAmenitiesDos {
+            grid-area: bloqueAmenitiesDos;
+        }
+        .bloqueAmenitiesTres {
+            grid-area: bloqueAmenitiesTres;
+        }
+        .bloqueAmenitiesCuatro {
+            grid-area: bloqueAmenitiesCuatro;
+        }
+    }
+}

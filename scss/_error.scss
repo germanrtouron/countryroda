@@ -1,0 +1,26 @@
+.contenedor-error {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titulo-error {
+        font-size: 30px;
+    }
+    .subtitulo-error {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+    .texto-error {
+        font-size: 15px;
+        margin: 10px 0 20px 0;
+    }
+    .img-error {
+        height: 40vh;
+    }
+    .link-error {
+        @include links (rgb(10, 8, 104), 20px, 900);
+        margin: 20px 0;
+    }
+}

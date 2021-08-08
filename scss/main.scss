@@ -1,0 +1,28 @@
+/*RESET*/
+@import "reset";
+/*ANIMACIONES*/
+@import "animaciones";
+/*FUENTES*/
+@import "fuentes";
+/*MIXINS*/
+@import "mixin";
+/*VARIABLES*/
+@import "variables";
+/*LAYOUT GRID*/
+@import "layout";
+/*TITULOS*/
+@import "titulos";
+/*ESTRUCTURAS*/
+@import "body";
+@import "header";
+@import "nav";
+@import "footer";
+/*SECCIONES*/
+@import "index";
+@import "amenities";
+@import "galeria";
+@import "ubicacion";
+@import "contacto";
+@import "error";
+/*MEDIA QUERIES*/
+@import "mediaqueries";

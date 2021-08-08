@@ -1,0 +1,21 @@
+/*UBICACION*/
+.headerUbicacion {
+    background-image: linear-gradient(rgba(255,255,255,0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.205),
+    rgb(255, 255, 255)), url(../img/banner/headerubicacion.jpg);
+}
+.mainUbicacion {
+    grid-area: mainUbicacion;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    .mapaUbicacion {
+        width: 100%;
+        height: 500px;
+        border: 0;
+    }
+    p {
+        @include parrafos (18px, 100, justify);
+        margin: 20px 10% 0 10%;
+    }
+}

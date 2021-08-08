@@ -1,0 +1,17 @@
+@mixin titulos ($tSize, $tWeight, $tAlign, $tColor){
+    font-size: $tSize;
+    font-weight: $tWeight;
+    text-align: $tAlign;
+    color: $tColor;
+}
+@mixin links ($lColor, $lSize, $lWeight) {
+    text-decoration: none;
+    color: $lColor;
+    font-size: $lSize;
+    font-weight: $lWeight;
+}
+@mixin parrafos ($pSize, $pWeight, $pAlign) {
+    font-size: $pSize;
+    font-weight: $pWeight;
+    text-align: $pAlign;
+}

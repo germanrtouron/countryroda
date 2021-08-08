@@ -1,0 +1,24 @@
+/*TITULOS HEADER*/
+header {
+    h1 {
+        position: absolute;
+        top: 100px;
+        width: 100%;
+        font-family: 'Gilda Display', serif;
+        @include titulos (80px, 900, center, white);
+        text-shadow: black 0.1em 0.1em 0.2em;
+        letter-spacing: 50px;
+    }
+    h2 {
+        @extend h1;
+        top: 200px;
+        @include titulos (30px, 300, center, white);
+        letter-spacing: 30px;
+        word-spacing: 30px;
+    }
+}
+/*TITULOS SECCIONES*/
+.titulo-seccion {
+    @include titulos (30px, 900, center, black);
+    padding: 20px;
+}

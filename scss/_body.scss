@@ -1,0 +1,7 @@
+body {
+    background-image: $fondo-body;
+}
+.body-error {
+    min-height: 100vh;
+    background-image: linear-gradient(230deg, #ff71ff 0, #ff6dff 12.5%, #ff69ff 25%, #fe63ff 37.5%, #d15bf0 50%, #a552dd 62.5%, #7c4bcb 75%, #5544bb 87.5%, #273fac 100%);
+}
